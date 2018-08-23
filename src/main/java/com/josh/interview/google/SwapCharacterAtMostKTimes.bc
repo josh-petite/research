@@ -1,0 +1,32 @@
+Compiled from "SwapCharacterAtMostKTimes.java"
+public class com.josh.interview.google.SwapCharacterAtMostKTimes {
+  public com.josh.interview.google.SwapCharacterAtMostKTimes();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: ldc           #2                  // String converse
+       2: ldc           #3                  // String conserve
+       4: iconst_1
+       5: invokestatic  #4                  // Method run:(Ljava/lang/String;Ljava/lang/String;I)V
+       8: ldc           #5                  // String aabbccdd
+      10: ldc           #6                  // String ddbbccaa
+      12: iconst_1
+      13: invokestatic  #4                  // Method run:(Ljava/lang/String;Ljava/lang/String;I)V
+      16: ldc           #7                  // String magic
+      18: ldc           #8                  // String mgaci
+      20: iconst_2
+      21: invokestatic  #4                  // Method run:(Ljava/lang/String;Ljava/lang/String;I)V
+      24: ldc           #7                  // String magic
+      26: ldc           #9                  // String mgaic
+      28: iconst_1
+      29: invokestatic  #4                  // Method run:(Ljava/lang/String;Ljava/lang/String;I)V
+      32: ldc           #7                  // String magic
+      34: ldc           #10                 // String mvaic
+      36: iconst_1
+      37: invokestatic  #4                  // Method run:(Ljava/lang/String;Ljava/lang/String;I)V
+      40: return
+}
